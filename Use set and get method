@@ -1,0 +1,25 @@
+class Userprivet{
+ int id=65;
+ String name='h';
+ Userprivet(this.id ,this.name);
+
+ int get id1 =>id;
+ set id1(int v){
+  id=v;
+
+ }
+
+ String get name1 =>name;
+
+ set name1 (String v){
+  name =v;
+ }
+
+ String toString(){
+  return'Userprivet{int_id:$id,string_name:$name}';
+}  
+
+}
+
+void main() {
+Userprivet user1=Userprivet(0099,'hoor');
